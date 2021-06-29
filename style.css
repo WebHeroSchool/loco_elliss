@@ -1,0 +1,45 @@
+body {
+    min-width: 375px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Montserrat;
+}
+.title {
+    Font family: Montserrat;
+    Font style: Bold;
+    Font size: 80px;
+    Line height: 81.92px;
+    Line height: 84%;
+    Align: Left;
+    color: #000;
+}
+.description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 13px;
+    color: #000;
+    opacity: .5;
+}
+.button,
+.link {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    position: absolute;
+    color: #000;
+}
+
+.button {
+    background: none;
+}
+.title {
+    Font family: Montserrat;
+    Font style: Bold;
+    Font size: 80px;
+    Line height: 81.92px;
+    Line height: 84%;
+    Align: Left;
+    color: #000;
+}
