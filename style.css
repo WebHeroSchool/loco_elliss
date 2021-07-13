@@ -4,37 +4,6 @@ body {
     margin: 0 auto;
     font-family: Montserrat;
 }
-.title {
-    Font style: Bold;
-    Font size: 80px;
-    Line height: 81.92px;
-    Line height: 84%;
-    Align: Left;
-    color: #000;
-}
-.description {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 9px;
-    line-height: 13px;
-    color: #000;
-    opacity: .5;
-}
-
-.link {
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-    position: absolute;
-    color: #000;
-    position: absolute;
-    width: 121px;
-    height: 0px;
-    left: 827px;
-    top: 630px;
-    line-height: 0px;
-}
 
 .button {
     background:local;
@@ -50,6 +19,10 @@ body {
 }
 
 /* Header */
+@media (min-width: 992px) {
+    .header {
+        min-height: 92px;
+    }
 .header {
     display: flex;
     justify-content: space-between;
@@ -69,13 +42,13 @@ body {
     background: #000000;
     height: 100%;
 }
-.header__logo-img { 
-   padding: 36px 0 0 52px;
+
+.header__logo-loco { 
+    padding: 36px 0 0 52px;
     width: 98px;
     height: 37px;
-    /*left: 52px;
-    top: 36px;*/
-    
+    color:#f5f5f3;
+    font-size: 30px;
 }
 .header__lang-switcher {
     display: flex;
@@ -117,7 +90,7 @@ body {
     display: block;
     width: 26px;
     height: 3px;
-    background: #000;
+    background: black;
 }
  .header__burger-line {
         width: 35px;
@@ -126,3 +99,276 @@ body {
      .header__burger-line:first-of-type {
         margin-bottom: 5px;
     }
+}
+@media  (max-width : 780px) {
+    .header__logo-loco{
+      position: absolute;
+      font-weight: normal;
+      line-height: 52px;
+      font-size: 30px;
+      position: absolute;
+      width: 317px;
+      height: 69px;
+      left: 0px;
+      top: 0px;
+      background: #FFFFFF;
+    }
+   .header__lang-ru {
+       visibility: hidden;
+       direction: none;
+   }
+   .header__menu {
+       display: flex;
+      justify-content: flex-end;
+       width: 70px;px; 
+       height: 69px;
+       background: #f5f5f3;
+       cursor: pointer;
+       position: absolute;
+       left: 326.49px;
+       top: 0;
+   }
+   .header__burger {
+       align-items: center;
+       margin: auto;
+       float: none;
+   }
+  .header__burger-line  {
+   display: block;
+   width: 26px;
+   height: 3px;
+   position: absolute;
+   left: 326.49px;
+ /*  top: 35.73px;*/
+   background: #000000;
+  }
+  .header__burger-line {
+   width: 35px;
+   height: 3 px;
+}
+.header__burger-line:first-of-type {
+   margin-bottom: 5px;
+}
+   }
+    @media  (max-width : 400px) {
+         .header__logo-loco{
+           position: absolute;
+           font-weight: normal;
+           line-height: 52px;
+           font-size: 30px;
+           position: absolute;
+           width: 317px;
+           height: 69px;
+           left: 0px;
+           top: 0px;
+           background: #FFFFFF;
+         }
+        .header__lang-ru {
+            visibility: hidden;
+            direction: none;
+        }
+        .header__menu {
+            display: flex;
+           justify-content: flex-end;
+            width: 70px;px; 
+            height: 69px;
+            background: #f5f5f3;
+            cursor: pointer;
+            position: absolute;
+            left: 326.49px;
+            top: 0;
+        }
+        .header__burger {
+            align-items: center;
+            margin: auto;
+            float: none;
+        }
+       .header__burger-line  {
+        display: block;
+        width: 26px;
+        height: 3px;
+        position: absolute;
+        left: 326.49px;
+      /*  top: 35.73px;*/
+        background: #000000;
+       }
+       .header__burger-line {
+        width: 35px;
+        height: 3 px;
+    }
+     .header__burger-line:first-of-type {
+        margin-bottom: 5px;
+    }
+        }
+/* First  section */
+
+@media (min-width: 992px) {
+.collection {
+    
+    width: 100%;
+    width: 1440px;
+    height: 900px;
+    display: flex;
+    flex-flow: column;
+    justify-content:flex-end;
+  }
+    
+.collection__wrap{
+    background: #000;
+    width: 462px;
+    height: 900px;
+    display: flex;
+    flex-flow: column;
+    justify-content:flex-end; 
+} 
+.collection__wrap-img {
+        background-image: url(../images/girl.png);
+        padding: 0 -60px;          
+        position: absolute;
+        top: 160px;;
+        left: 462px;;
+        width: 100%;
+        height: 100%;
+        z-index:1000;
+       
+             }
+ .collection__text {
+        position: absolute;
+        font-weight:normal;
+        line-height: 21px;
+        font-size: 15px;
+        font-family: Montserrat;
+        font-style: normal;
+        width: 467px;
+        height: 127px;
+        top: 463px;
+        left: 789px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 0 260px;
+    }
+
+
+.collection__title {
+    position: absolute;
+    top: 200px;
+    left: 789px;
+    padding: 0 260px;
+    font-weight: bold;
+    line-height: 82px;
+    font-size: 80px;
+}
+
+
+.collection__buttons{
+        color: #000;
+        display: flex;
+        justify-content: space-between;
+        width: 490px;
+        padding: 0 260px;
+        position: absolute;
+        top: 600px;
+        left: 789px;
+}
+
+.collection__link.button{
+      border: 1.5px solid #000;
+      text-decoration:none;
+      text-align: center;
+      line-height: 3.5em;
+      width: 203px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      color: black;
+      cursor: pointer;
+
+}
+.link{
+      text-decoration:none;
+      width: 300px;
+      line-height: 3.5em;
+      text-align: center;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      color: black;
+      cursor: pointer;
+}
+
+
+.collection__social-list{
+
+    cursor: pointer;
+    display: flex;
+    justify-content:space-between;
+    width: 153px;
+    list-style: none;
+}
+}
+@media (max-width: 780px )  {
+    .collection__title {
+        text-align: center;
+    }
+    .collection__text, .collection__buttons, .collection__social {
+        visibility: hidden;
+        direction: none; 
+    }
+
+    .collection__wrap-img {
+        background-image: url(../images/girl.png);
+        position: absolute;
+        width: 540.25px;
+        height: 600px;
+        left: -74px;
+        top: 71px;
+    }
+    .collection__title {
+        position: absolute;
+        width: 297px;
+       height: 103px;
+       left: 26px;
+       top: 450px;
+       font-family: Montserrat;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 50px;
+       line-height: 51px;
+       color: #000000;
+     }
+}
+@media (max-width: 400px )  {
+    .collection__title {
+        text-align: center;
+    }
+    .collection__text, .collection__buttons, .collection__social {
+        visibility: hidden;
+        direction: none; 
+    }
+
+    .collection__wrap-img {
+        background-image: url(../images/girl.png);
+        position: absolute;
+        width: 540.25px;
+        height: 600px;
+        left: -74px;
+        top: 71px;
+    }
+    .collection__title {
+        position: absolute;
+        width: 297px;
+       height: 103px;
+       left: 26px;
+       top: 450px;
+       font-family: Montserrat;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 50px;
+       line-height: 51px;
+       color: #000000;
+     }
+}
