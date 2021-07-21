@@ -4,7 +4,7 @@ body {
     font-family: Montserrat;
 }
 
-
+/*
 .title {
     Font family: Montserrat;
     Font style: Bold;
@@ -14,7 +14,7 @@ body {
     Align: Left;
     color: #000;
 }
-
+*/
 /* Header */
 
 .header {
@@ -97,7 +97,7 @@ body {
     }
 
 
-   }
+   
     @media  (max-width : 320px) {
          .header__logo-loco{
            position: absolute;
@@ -157,17 +157,28 @@ body {
     height: 900px;
     display: flex;
     flex-flow: column;
-    justify-content:flex-end;
+   justify-content:space-between;
   }
   
 .collection__wrap{
-    background: #000;
-    width: 462px;
+    background: linear-gradient(to right, #000 461px, #FFF 461px);
     height: 900px;
-    display: flex;
-    flex-flow: column;
-    justify-content:flex-end; 
+    
+   
+      
 } 
+.collection__wrap-img {
+    background-image: url(/images/girl.png); 
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size:auto;
+    padding-top: 160px;
+    padding-left: 200px;
+}
+/*
+.collection__wrap-text {
+    height: 900px;
+}*/
 .collection__title {
     position: absolute;
     top: 200px;
@@ -177,16 +188,7 @@ body {
     line-height: 82px;
     font-size: 80px;
 }
-.collection__wrap-img {
-        background-image: url(../images/girl.png); 
-        background-repeat: no-repeat;
-        background-position: left center;
-        padding-left: 200px;
-        display: flex;
-        
-        align-items: flex-end;
-        justify-content:space-between ;
-        }
+
  .collection__text {
         font-family: Montserrat;
         font-weight:normal;
@@ -196,47 +198,16 @@ body {
       
         width: 467px;
         height: 127px;
-        top: 263px;
-      
+        top: 63px;
+        padding: 0 789px;
+        
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        padding: 260 789px;
+        
     }
-/*
-.collection__wrap-img {
-    background-image: url(../images/MainPic.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 10;
-    top: 160px;
-    left: 462px;
-    height: 562px;
-    width: 735px;
-         
-}
 
-.collection__text {
-    width: 555px;
-    height: 397px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 0 30px;
-}
-
-.collection__title {
-    position: absolute;
-    top: 200px;
-    left: 789px;
-    padding: 0 260px;
-    font-weight: bold;
-    line-height: 82px;
-    font-size: 80px;
-}
-*/
 .button {
     background:local;
 }
@@ -245,7 +216,7 @@ body {
         display: flex;
         justify-content: space-between;
         width: 490px;
-        padding: 0 260px;
+        padding: 0 160px;
         position: absolute;
         top: 600px;
         left: 789px;
@@ -266,7 +237,7 @@ body {
 
 }
 
-.link{
+.collection.link{
       text-decoration:none;
       width: 300px;
       line-height: 3.5em;
@@ -277,8 +248,19 @@ body {
       font-size: 15px;
       color: black;
       cursor: pointer;
+      position: relative;
 }
 
+.collection.link.link::after {
+    position: absolute;
+    top: 17px;
+    right: 0;
+    display: block;
+    content: "";
+    width: 440px;
+    height: 12px;
+
+}
 
 .collection__social-list{
 
@@ -288,6 +270,9 @@ body {
     width: 153px;
     list-style: none;
 }
+
+
+/* для мобильной версии*/
 
 @media (max-width: 320px )  {
     .collection__title {
