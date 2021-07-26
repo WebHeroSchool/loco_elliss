@@ -3,18 +3,27 @@ body {
     margin: 0 auto;
     font-family: Montserrat;
 }
-
 /*
-.title {
-    Font family: Montserrat;
-    Font style: Bold;
-    Font size: 80px;
-    Line height: 81.92px;
-    Line height: 84%;
-    Align: Left;
-    color: #000;
-}
-*/
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .1s ease-in-out;
+}*/
+    /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов 
+.header:after, .main:after, footer:after, .widget-posts-list li:after, #subscribe:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ /* стилевой класс, который управляет шириной контейнера сетки
+ .main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 15px;
+ }*/
+
 /* Header */
 
 .header {
@@ -98,56 +107,7 @@ body {
 
 
    
-    @media  (max-width : 320px) {
-         .header__logo-loco{
-           position: absolute;
-           font-weight: normal;
-           line-height: 52px;
-           font-size: 30px;
-           position: absolute;
-           width: 317px;
-           height: 69px;
-           left: 0px;
-           top: 0px;
-           background: #FFFFFF;
-         }
-        .header__lang-ru {
-            visibility: hidden;
-            direction: none;
-        }
-        .header__menu {
-            display: flex;
-           justify-content: flex-end;
-            width: 70px; 
-            height: 69px;
-            background: #f5f5f3;
-            cursor: pointer;
-            position: absolute;
-            left: 326.49px;
-            top: 0;
-        }
-        .header__burger {
-            align-items: center;
-            margin: auto;
-            float: none;
-        }
-       .header__burger-line  {
-        display: block;
-        width: 26px;
-        height: 3px;
-        position: absolute;
-        left: 326.49px;
-      /*  top: 35.73px;*/
-        background: #000000;
-       }
-       .header__burger-line {
-        width: 35px;
-        height: 3 px;
-    }
-     .header__burger-line:first-of-type {
-        margin-bottom: 5px;
-    }
-        }
+    
 /* First  section */
 
 .collection {
@@ -163,8 +123,6 @@ body {
     height: 900px;
     display: flex;
     align-items: stretch;
-    /*flex-wrap: wrap;
-    align-content: space-between;*/
      order: 3;
 } 
 .collection__wrap-img {
@@ -187,7 +145,6 @@ body {
     padding-top: 160px;
     width: 475px;
     height: 164px;
-   /* padding: 0 789px;*/
     font-weight: bold;
     line-height: 82px;
     font-size: 80px;
@@ -203,7 +160,6 @@ body {
         line-height: 21px;
         font-size: 15px;
         font-style: normal;
-      
         width: 467px;
         height: 127px;
         top: 63px;
@@ -248,17 +204,7 @@ body {
       cursor: pointer;
       position: relative;
 }
-/*
-.collection.link.link::after {
-    position: absolute;
-    top: 17px;
-    right: 0;
-    display: block;
-    content: "";
-    width: 440px;
-    height: 12px;
 
-}*/
 
 .collection__social{
     display: flex;
@@ -278,31 +224,100 @@ body {
 }
 
 
-/* для мобильной версии
-
-@media (max-width: 320px )  {
-    .collection__title {
-        text-align: center;
+/*для мобильной версии 320 px*/
+/*
+@media only screen and (min-width: 320px){
+   .body{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 320px;
+    
+   }
+    .header{
+    width: 90%;
+    background: white;
+     display: flex;
+     justify-content: space-between;
+     height: 69px;
     }
-    .collection__text, .collection__buttons, .collection__social {
+  
+    .header__loco-wrap{
+        background-color: #f5f5f3;
+        display: flex;
+        justify-content: flex-start;
+        min-width: 320px;
+    }
+    .header__logo-loco{
+        color:#000;
+        
+        left: 26px;
+    }
+   .header__lang-ru {
+            visibility: hidden;
+            direction: none;
+        }
+        .header__menu {
+            
+           
+            width: 70px; 
+            height: 69px;
+            background: #FFF;
+            cursor: pointer;
+        
+        }
+        .header__burger {
+            width: 70px; 
+            height: 69px;
+            background: rgb(167, 68, 68);
+            cursor: pointer; 
+             }
+       .header__burger-line  {
+        display: block;
+        width: 26px;
+        height: 3px;
+        position: absolute;
+        left: 326.49px;
+        background: #000000;
+    }
+    .header__burger-line {
+     width: 35px;
+     height: 3 px;
+     
+     background: #000000;
+     }
+  .header__burger-line:first-of-type {
+     margin-bottom: 15px;
+ }
+
+
+
+  
+    .collection__text, .collection__buttons, .collection__social,.product, .look{
         visibility: hidden;
         direction: none; 
     }
-
-    .collection__wrap-img {
-        background-image: url(../images/girl.png);
-        position: absolute;
-        width: 540.25px;
-        height: 600px;
-        left: -74px;
-        top: 71px;
+.collection__wrap{
+    background: url(../images/girl.png);
+    width: 320;
+    height: 568px;
+    display: block; 
+    
+}
+.collection__wrap-img {
+       background-image: url(../images/girl.png);
+        background-repeat: no-repeat;
+        background-size:100%;
+        padding-top: 0;
+        padding-left: 0;
+        
     }
+    
     .collection__title {
         position: absolute;
         width: 297px;
        height: 103px;
        left: 26px;
-       top: 450px;
+       top: 300px;
        font-family: Montserrat;
        font-style: normal;
        font-weight: bold;
