@@ -262,9 +262,10 @@ body {
 }
 
  
- .collection__text, .collection__buttons, .collection__social,.product, .look{
+ .collection__text, .collection__buttons, .collection__social {
         visibility: hidden;
         direction: none; 
+
     }
     
 .collection__wrap{
@@ -298,5 +299,10 @@ body {
        font-size: 50px;
        line-height: 51px;
        color: #000000;
+     }
+     .product, .look {
+        visibility: hidden;
+        direction: none; 
+        display: none;
      }
 }
