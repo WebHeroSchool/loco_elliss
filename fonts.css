@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: "Montserrat";
     font-weight: normal;
     font-style: normal;
@@ -14,11 +14,11 @@
     src:     url("../loco_elliss/fonts/15-font-webfont.woff") format("woff"),
              url("../loco_elliss/fonts/15-font-webfont.woff2") format("woff2"); 
             
-}
+}*/
 
 @font-face {
     font-family: "Montserrat";
-    font-weight: bold;
+    font-weight: normal;
     font-style: normal;
     src:     url("../loco_elliss/fonts/montserrat-bold-webfont.woff") format("woff"),
              url("../loco_elliss/fonts/montserrat-bold-webfont.woff2") format("woff2");
