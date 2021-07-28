@@ -99,7 +99,7 @@ body {
     background: linear-gradient(to right, #000 461px, #FFF 461px);
     height: 900px;
     display: flex;
-   
+    font-family: Montserrat;
 } 
 .collection__wrap-img {
     background-image: url(../loco_elliss/images/girl.png); 
@@ -122,9 +122,11 @@ body {
     width: 475px;
     height: 164px;
     margin: 10;
+    
     font-weight: bold;
+    font-style: normal;
     line-height: 82px;
-    font-size: 80px;
+    font-size: 82px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,11 +134,11 @@ body {
 }
 
  .collection__text {
-        font-family: Montserrat;
-        font-weight:normal;
+        
+        font-weight:500;
         line-height: 21px;
-        font-size: 15px;
-        font-style: normal;
+        font-size: 18px;
+        font-style: medium;
         width: 467px;
         height: 127px;
         padding-top: 10px;
@@ -156,8 +158,7 @@ body {
       line-height: 3.5em;
       width: 203px;
       height: 44px;
-      font-family: Montserrat;
-      font-style: normal;
+      font-style: medium;
       font-weight: 500;
       font-size: 15px;
       color: black;

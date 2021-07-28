@@ -3,16 +3,16 @@
     font-weight: normal;
     font-style: normal;
     src:
-            url("../fonts/ofont.ru_montserrat_2-webfont.woff2") format("woff2"),
-            url("../fonts/ofont.ru_montserrat_2-webfont.woff") format("woff");
+            url("../loco_elliss/fonts/ofont.ru_montserrat_2-webfont.woff2") format("woff2"),
+            url("../loco_elliss/fonts/ofont.ru_montserrat_2-webfont.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Montserrat";
+    font-family: "Montserrat Medium";
     font-weight: 500;
-font-style: medium;
-    src:     url("../fonts/15-font-webfont.woff") format("woff"),
-             url("../fonts/15-font-webfont.woff2") format("woff2"); 
+    font-style: medium;
+    src:     url("../loco_elliss/fonts/15-font-webfont.woff") format("woff"),
+             url("../loco_elliss/fonts/15-font-webfont.woff2") format("woff2"); 
             
 }
 
@@ -20,7 +20,7 @@ font-style: medium;
     font-family: "Montserrat";
     font-weight: bold;
     font-style: normal;
-    src:     url("../fonts/ofont.ru_montserrat-webfont.woff") format("woff"),
-             url("../fonts/ofont.ru_montserrat-webfont.woff2") format("woff2");
+    src:     url("../loco_elliss/fonts/montserrat-bold-webfont.woff") format("woff"),
+             url("../loco_elliss/fonts/montserrat-bold-webfont.woff2") format("woff2");
     
 } 
