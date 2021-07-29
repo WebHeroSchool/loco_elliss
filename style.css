@@ -26,6 +26,8 @@ body {
     display: flex;
     background: #000000;
     height: 100%;
+    font-weight: normal;
+    font-style: normal;
 }
 
 .header__logo-loco { 
@@ -118,7 +120,7 @@ body {
     padding-left: 40px;
 }
 .collection__title {
-    padding-top: 120px;
+    padding-top: 160px;
     width: 475px;
     height: 164px;
     margin: 10;
@@ -137,11 +139,11 @@ body {
         
         font-weight:500;
         line-height: 21px;
-        font-size: 18px;
-        font-style: medium;
+        font-size: 15px;
+        font-style: normal;
         width: 467px;
         height: 127px;
-        padding-top: 10px;
+        padding-top: 5px;
 }
 .collection__buttons{
         color: #000;
@@ -262,9 +264,10 @@ body {
 }
 
  
- .collection__text, .collection__buttons, .collection__social,.product, .look{
+ .collection__text, .collection__buttons, .collection__social {
         visibility: hidden;
         direction: none; 
+
     }
     
 .collection__wrap{
@@ -290,7 +293,7 @@ body {
         position: absolute;
         width: 297px;
        height: 103px;
-       left: 26px;
+       left: 10px;
        top: 290px;
        font-family: Montserrat;
        font-style: normal;
@@ -298,5 +301,10 @@ body {
        font-size: 50px;
        line-height: 51px;
        color: #000000;
+     }
+     .product, .look {
+       /* visibility: hidden;*/
+        direction: none; 
+        display: none;
      }
 }
