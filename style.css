@@ -155,18 +155,17 @@ body {
    
     width: 1440px;
     height: 900px;
-    display: flex;
-    flex-wrap: wrap;
-  justify-content: space-between;
+ 
   }
   
 .collection__wrap{
     background: linear-gradient(to right, #000 461px, #FFF 461px);
     height: 900px;
     display: flex;
-    flex-flow: column;
-    justify-content:space-between;
-      
+    align-items: stretch;
+    /*flex-wrap: wrap;
+    align-content: space-between;*/
+     order: 3;
 } 
 .collection__wrap-img {
     background-image: url(/images/girl.png); 
@@ -175,16 +174,20 @@ body {
     background-size:auto;
     padding-top: 160px;
     padding-left: 200px;
+    
 }
-/*
+
 .collection__wrap-text {
-    height: 900px;
-}*/
+    display: flex;
+  
+    flex-direction: column;
+    padding-left: 40px;
+}
 .collection__title {
     padding-top: 160px;
     width: 475px;
     height: 164px;
-    padding: 0 789px;
+   /* padding: 0 789px;*/
     font-weight: bold;
     line-height: 82px;
     font-size: 80px;
@@ -204,33 +207,25 @@ body {
         width: 467px;
         height: 127px;
         top: 63px;
-        padding: 0 789px;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
+       
         
     }
 
-.button {
-    background:local;
-}
 .collection__buttons{
         color: #000;
         display: flex;
-        justify-content: space-between;
-        width: 490px;
-        padding: 0 780px;
-      
+        flex-wrap: wrap;
+       justify-content: space-between;
+        
 }
 
-.collection__link.button{
+.button{
       border: 1.5px solid #000;
       text-decoration:none;
       text-align: center;
       line-height: 3.5em;
       width: 203px;
+      height: 44px;
       font-family: Montserrat;
       font-style: normal;
       font-weight: 500;
@@ -240,7 +235,7 @@ body {
 
 }
 
-.collection.link{
+.link{
       text-decoration:none;
       width: 300px;
       line-height: 3.5em;
@@ -253,7 +248,7 @@ body {
       cursor: pointer;
       position: relative;
 }
-
+/*
 .collection.link.link::after {
     position: absolute;
     top: 17px;
@@ -263,19 +258,27 @@ body {
     width: 440px;
     height: 12px;
 
-}
+}*/
 
+.collection__social{
+    display: flex;
+   align-self: flex-end;
+   flex-direction: column; 
+   
+   
+}
 .collection__social-list{
 
     cursor: pointer;
     display: flex;
-    justify-content:space-between;
+  
+    height: 100%;
     width: 153px;
     list-style: none;
 }
 
 
-/* для мобильной версии*/
+/* для мобильной версии
 
 @media (max-width: 320px )  {
     .collection__title {
@@ -307,4 +310,4 @@ body {
        line-height: 51px;
        color: #000000;
      }
-}
+}*/
