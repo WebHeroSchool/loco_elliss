@@ -3,26 +3,6 @@ body {
     margin: 0 auto;
     font-family: Montserrat;
 }
-/*
-*, *:after, *:before {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    transition: .1s ease-in-out;
-}*/
-    /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов 
-.header:after, .main:after, footer:after, .widget-posts-list li:after, #subscribe:after {
-    content: "";
-    display: table;
-    clear: both;
- }
- /* стилевой класс, который управляет шириной контейнера сетки
- .main {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-    padding: 0 15px;
- }*/
 
 /* Header */
 
@@ -36,7 +16,7 @@ body {
     
 }
 
- .header__loco-wrap {
+.header__loco-wrap {
         display: flex;
         justify-content: space-between;
         width: 461px;
@@ -60,7 +40,7 @@ body {
     justify-content: flex end;
 }
 
- .header__lang-switcher {
+.header__lang-switcher {
         position: relative;
         display: block;
         width: 50px;
@@ -68,7 +48,7 @@ body {
         padding: 14px 20px 0 0;
     }
 
-    .header__lang-ru {
+.header__lang-ru {
         text-decoration: none;
         cursor: pointer;
         color: #FFF;
@@ -111,11 +91,8 @@ body {
 /* First  section */
 
 .collection {
-    
-   
     width: 1440px;
     height: 900px;
- 
   }
   
 .collection__wrap{
@@ -163,15 +140,12 @@ body {
         width: 467px;
         height: 127px;
         top: 63px;
-       
-        
-    }
-
+}
 .collection__buttons{
         color: #000;
         display: flex;
         flex-wrap: wrap;
-       justify-content: space-between;
+        justify-content: space-between;
         
 }
 
@@ -225,8 +199,8 @@ body {
 
 
 /*для мобильной версии 320 px*/
-/*
-@media only screen and (min-width: 320px){
+
+@media only screen and (max-width: 320px){
    .body{
     margin: 0 auto;
     width: 90%;
@@ -245,27 +219,24 @@ body {
         background-color: #f5f5f3;
         display: flex;
         justify-content: flex-start;
-        min-width: 320px;
+        min-width: 315px;
     }
     .header__logo-loco{
         color:#000;
-        
         left: 26px;
     }
    .header__lang-ru {
             visibility: hidden;
             direction: none;
         }
-        .header__menu {
-            
-           
+    .header__menu {
             width: 70px; 
             height: 69px;
-            background: #FFF;
+            background:#f5f5f3;
             cursor: pointer;
         
         }
-        .header__burger {
+    .header__burger {
             width: 70px; 
             height: 69px;
             background: rgb(167, 68, 68);
@@ -276,38 +247,40 @@ body {
         width: 26px;
         height: 3px;
         position: absolute;
-        left: 326.49px;
+        left: 315px;
         background: #000000;
     }
     .header__burger-line {
      width: 35px;
      height: 3 px;
-     
      background: #000000;
      }
   .header__burger-line:first-of-type {
      margin-bottom: 15px;
  }
+.collection{
+    width: 320px;
+    height: 568px;
+}
 
-
-
-  
-    .collection__text, .collection__buttons, .collection__social,.product, .look{
+ 
+ .collection__text, .collection__buttons, .collection__social,.product, .look{
         visibility: hidden;
         direction: none; 
     }
+    
 .collection__wrap{
-    background: url(../images/girl.png);
+   background-color: #FFF;
     width: 320;
     height: 568px;
     display: block; 
     
-}
+} 
 .collection__wrap-img {
        background-image: url(../images/girl.png);
         background-repeat: no-repeat;
-        background-size:100%;
-        padding-top: 0;
+        background-size:60%;
+        padding-top: 0px;
         padding-left: 0;
         
     }
@@ -317,7 +290,7 @@ body {
         width: 297px;
        height: 103px;
        left: 26px;
-       top: 300px;
+       top: 290px;
        font-family: Montserrat;
        font-style: normal;
        font-weight: bold;
@@ -325,4 +298,4 @@ body {
        line-height: 51px;
        color: #000000;
      }
-}*/
+}
