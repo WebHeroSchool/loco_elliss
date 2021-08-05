@@ -7,6 +7,7 @@ body {
 /* Header */
 
 .header {
+    width: 1440px; ;
     display: flex;
     justify-content: space-between;
     min-height: 70px;
@@ -121,14 +122,14 @@ body {
 .collection__wrap-text {
     display: flex;
     flex-direction: column;
-    padding-left: 45px;
+    padding-left: 47px;
 }
 .collection__title {
-    padding-top: 164px;
+    padding-top: 175px;
     width: 475px;
     height: 164px;
-    margin: 10;
-    
+    margin: 5px;
+    letter-spacing: -1,5px;
     font-weight: bold;
     font-style: normal;
     line-height: 82px;
@@ -141,20 +142,21 @@ body {
 
  .collection__text {
         
-        font-weight:500;
+        font-weight:normal;
         line-height: 21px;
         font-size: 15px;
         font-style: normal;
         width: 467px;
         height: 127px;
-      
+        letter-spacing: -0.5px;
+        
 }
 .collection__buttons{
         color: #000;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-top: 15px;
+        padding-top: 16px;
 }
 
 .button{
@@ -168,7 +170,8 @@ body {
       font-weight: 500;
       font-size: 15px;
       color: black;
-      cursor: pointer;
+      cursor: default;
+      letter-spacing: -0.5px;
 
 }
 
@@ -182,16 +185,13 @@ body {
       font-weight: 500;
       font-size: 15px;
       color: black;
-      cursor: pointer;
+      cursor: default;
       position: relative;
 }
 
 
 .collection__social{
   display: flex;
-   /*align-self: flex-end;
-   flex-direction: column; */
-   
   justify-content: space-between;
    align-items: center;
 }
@@ -211,7 +211,7 @@ body {
  
 }
 .social__link_vkontakte {
-    padding: 5px;
+    padding: 7px;
 } 
 
 .social__link_facebook{
@@ -224,13 +224,13 @@ body {
     background-position: right ;
     width: 27px;
     height: 46px;
-   align-items: flex-start;
+    align-items: flex-start;
     align-self: flex-end;
 }
 
 /*для мобильной версии 375 px*/
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 380px){
    .body{
     margin: 0 auto;
     width: 90%;
@@ -316,7 +316,10 @@ body {
     width: 375;
     height: 668px;
     display: block; 
-    
+    background-image: url(../loco_elliss/images/Vector@2x.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center bottom;
 } 
 .collection__wrap-img {
        background-image: url(../loco_elliss/images/mob_girl.png);
@@ -325,23 +328,26 @@ body {
         
         width: 375px;
         height: 668px;
-        padding-top: 0px;
-        padding-left: 0;
+        padding: 60px 0px 0px;
         
     }
     
     .collection__title {
-        position: absolute;
-        width: 297px;
+       position: absolute;
+       width: 297px;
        height: 103px;
        left: 10px;
        top: 400px;
+    
        font-family: Montserrat;
        font-style: normal;
        font-weight: bold;
        font-size: 50px;
        line-height: 51px;
        color: #000000;
+       
+       
+        
      }
      .product, .look {
        
