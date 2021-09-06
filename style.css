@@ -1,7 +1,7 @@
 body {
    
     margin: 0 auto;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family:  Arial, sans-serif;
 }
 
 /* Header */
@@ -36,7 +36,8 @@ body {
     width: 98px;
     height: 37px;
     color:#f5f5f3;
-    font-size: 30px;
+    font-family: 'Montserrat Medium';
+    font-size: 32px;
 }
 .header__lang-switcher {
     display: flex;
@@ -55,6 +56,7 @@ body {
         text-decoration: none;
         cursor: pointer;
         color: #FFF;
+        font-family: "Montserrat Medium";
         line-height: normal;
         font-size: 20px;
         background-image: url(../loco_elliss/images/Vector.png); 
@@ -106,15 +108,14 @@ body {
     background: linear-gradient(to right, #000 461px, #FFF 461px);
     height: 805px;
     display: flex;
-    font-family: Montserrat Regular;
-} 
+   } 
 .collection__wrap-img {
     background-image: url(../loco_elliss/images/girl.png); 
    background-repeat: no-repeat;
     background-position: right ;
     width: 540px;
     height: 562px;
-    padding-top: 160px;
+    padding-top: 159px;
     padding-left: 200px;
     
 }
@@ -130,7 +131,7 @@ body {
     height: 164px;
     margin: 5px;
     letter-spacing: -0.2px;
-    font-family: Montserrat;
+    font-family: "Montserrat Bold";
     font-weight: bold;
     font-style: normal;
     line-height: 82px;
@@ -143,7 +144,8 @@ body {
 
  .collection__text {
         padding-top: 7px;
-        margin: 5px;
+        margin: 3px;
+        font-family: "Montserrat Regular";
         font-weight:normal;
         line-height: 21px;
         font-size: 15px;
@@ -154,51 +156,52 @@ body {
         
 }
 .collection__buttons{
-        color: #000;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        padding-top: 18px;
+        height: 44px;
+        padding-top: 25px;
         padding-left: 1px;
         padding-bottom: 22px;
         margin: 8px;
         margin-left: 0px;
+        text-transform: uppercase;
 }
 
 .button{
       border: 1.5px solid #000;
       text-decoration:none;
       line-height: 3.5em;
-      width: 195px;
-      height: 42px;
+      width: 196px;
+      height: 44px;
+      font-family: "Montserrat medium";
       font-style: normal;
       font-weight: 500;
-      font-size: 15px;
+      font-size: 13px;
       color: black;
       cursor: default;
-      letter-spacing: 0.5px;
+      letter-spacing: 0px;
       text-align: center;
-      
-
-}
+      }
 
 .link{
       text-decoration:none;
-      width: 250px;
-      line-height: 3.5em;
-      text-align: center;
+      width: 203px;
+      line-height: 2.5em;
       font-style: normal;
       font-weight: 500;
-      font-size: 15px;
+      font-size: 13px;
       color: black;
       cursor: default;
       position: relative;
-      
+      font-family: "Montserrat medium";
+      padding-left: 27px;
+      padding-top: 5px;
 }
 .vector3 {
 display: flex;
 align-self: center;
-padding-left: 1px;
+padding-left: 11px;
 }
 
 .collection__social{
@@ -240,6 +243,7 @@ padding-left: 1px;
     z-index: 0;
     margin: 5px;
     padding-left: 50px;
+    padding-top: 10px;
 }
 .retangle1 {
     
@@ -252,6 +256,132 @@ padding-left: 1px;
     left: 721px;
      z-index:1;
 }
+
+/*для мобильной версии 768 px*/
+
+@media only screen and (max-width: 770px){
+    .body{
+     margin: 0 auto;
+     width: 100%;
+     max-width: 768px;
+     
+    }
+     .header{
+     width: 100%;
+     background: #f5f5f3;
+      display: flex;
+      justify-content: space-between;
+      height: 69px;
+     }
+   
+     .header__loco-wrap{
+         background-color:#FFF;                     ;
+         display: flex;
+         justify-content: flex-start;
+         min-width: 698px;
+     }
+     .header__logo-loco{
+         color:#000;
+         left: 26px;
+         padding: 16px 0 0 22px;
+         width: 98px;
+         height: 37px;
+         font-size: 30px;
+     }
+    .header__lang-ru {
+             visibility: hidden;
+             direction: none;
+         }
+     .header__menu {
+             width: 70px; 
+             height: 69px;
+             background:#f5f5f3;
+             cursor: pointer;
+             
+         }
+     .header__burger {
+             width: 70px; 
+             height: 69px;
+             background: rgb(243, 241, 241);
+             cursor: pointer;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+      }
+  
+     .header__burger-line  {
+         background: #000000;
+         width: 25px;
+         height: 4px;
+     }
+     .header__burger-line > span::before{
+         content: '';
+         top: 5px;
+     }
+     .header__burger-line > span::after{
+         content: '';
+         top: 5px;
+        }
+ .collection{
+     width: 768px;
+     height: 1024px;
+ }
+ 
+  
+  .collection__text, .collection__buttons, .collection__social {
+         visibility: hidden;
+         direction: none; 
+      }
+     
+ .collection__wrap{
+    background-color: #FFF;
+     width: 768;
+     height: 1024px;
+     display: block; 
+    } 
+ 
+ 
+ .collection__wrap-img {
+     background-image: url(../loco_elliss/images/mob_girl.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: 0;
+     width: 768px;
+     height: 1024px;
+     }
+     
+     .collection__title {
+        position: absolute;
+        padding-top: 100px;
+        top: 720px;
+        width: 297px;
+        height: 103px;
+        left:210px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 57px;
+        color: #000000;
+        letter-spacing: 1.5px;     
+      }
+      .vector {
+         background-image: url(../loco_elliss/images/Vector2.png);
+         background-size: cover;
+         position: absolute;
+         width: 65px;
+         height: 40px;
+         left: 330px;
+         top: 985px;
+         z-index: 1;
+     }
+      .product, .look {
+        
+         direction: none; 
+         display: none;
+      }
+ }
 /*для мобильной версии 375 px*/
 
 @media only screen and (max-width: 380px){
@@ -270,7 +400,7 @@ padding-left: 1px;
     }
   
     .header__loco-wrap{
-        background-color: #f5f5f3;
+        background-color:#FFF;
         display: flex;
         justify-content: flex-start;
         min-width: 305px;
@@ -281,7 +411,10 @@ padding-left: 1px;
         padding: 16px 0 0 22px;
         width: 98px;
         height: 37px;
-        font-size: 30px;
+        font-family: "Montserrat Medium";
+        font-size: 33px;
+        line-height: 37px;
+        letter-spacing: 0.07em;
     }
    .header__lang-ru {
             visibility: hidden;
@@ -343,12 +476,12 @@ padding-left: 1px;
 .collection__wrap-img {
        background-image: url(../loco_elliss/images/mob_girl.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 111%;
+        background-position: -18px;
         z-index: 0;
         width: 375px;
-        height: 520px;
-        padding: 0px 0px 0px;
-        
+        height: 527px;
+             
     }
     
     .collection__title {
@@ -357,8 +490,8 @@ padding-left: 1px;
        top: 420px;
        width: 297px;
        height: 103px;
-       left: 10px;
-       font-family: Montserrat;
+       left: 23px;
+       font-family: "Montserrat Medium";
        font-style: normal;
        font-weight: bold;
        font-size: 50px;
@@ -370,9 +503,9 @@ padding-left: 1px;
         background-image: url(../loco_elliss/images/Vector2.png);
         background-size: cover;
         position: absolute;
-        width: 28px;
+        width: 30px;
         height: 20px;
-        left: 162px;
+        left: 171px;
         top: 560px;
         z-index: 1;
     }
