@@ -147,14 +147,14 @@ body {
         font-style: normal;
         width: 467px;
         height: 127px;
-       /* padding-top: 5px;*/
+      
 }
 .collection__buttons{
         color: #000;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        
+        padding-top: 15px;
 }
 
 .button{
@@ -163,7 +163,7 @@ body {
       text-align: center;
       line-height: 3.5em;
       width: 203px;
-      height: 44px;
+      height: 42px;
       font-style: medium;
       font-weight: 500;
       font-size: 15px;
@@ -189,10 +189,11 @@ body {
 
 .collection__social{
   display: flex;
-   align-self: flex-end;
-   flex-direction: column; 
+   /*align-self: flex-end;
+   flex-direction: column; */
    
-   
+  justify-content: space-between;
+   align-items: center;
 }
 .collection__social-list{
 
@@ -201,7 +202,20 @@ body {
     height: 100%;
     width: 153px;
     list-style: none;
-    padding: -10px;
+    
+}
+
+.social__link_instagram {
+    padding-left: 50px;
+    padding-top: 5px;
+ 
+}
+.social__link_vkontakte {
+    padding: 5px;
+} 
+
+.social__link_facebook{
+    padding: 5px;
 }
 .retangle {
     display: flex;
@@ -210,7 +224,7 @@ body {
     background-position: right ;
     width: 27px;
     height: 46px;
-    align-items: flex-start;
+   align-items: flex-start;
     align-self: flex-end;
 }
 
