@@ -188,7 +188,15 @@ body {
       cursor: default;
       position: relative;
 }
-
+/*.vector3 {
+    background-image: url(../loco_elliss/images/Vector3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 43px;
+    height: 10px;
+    color: #000;
+    align-self: flex-end;
+}*/
 
 .collection__social{
   display: flex;
@@ -233,7 +241,7 @@ body {
 @media only screen and (max-width: 380px){
    .body{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     max-width: 375px;
     
    }
@@ -254,6 +262,10 @@ body {
     .header__logo-loco{
         color:#000;
         left: 26px;
+        padding: 16px 0 0 22px;
+        width: 98px;
+        height: 37px;
+        font-size: 30px;
     }
    .header__lang-ru {
             visibility: hidden;
@@ -267,24 +279,19 @@ body {
             
         }
     .header__burger {
-           width: 70px; 
+            width: 70px; 
             height: 69px;
             background: rgb(243, 241, 241);
             cursor: pointer;
-            align-self: center;
-            margin: auto;   
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
      }
- .header__burger-line  {
-        display: block;
-        width: 30px;
-        height: 3px;
-        position: fixed;
-        top: 20px;
-        left: 320px;
-        background: #000000;
-    }
+ 
     .header__burger-line  {
-        width: 35px;
+        background: #000000;
+        width: 25px;
         height: 4px;
     }
     .header__burger-line > span::before{
@@ -294,14 +301,11 @@ body {
     .header__burger-line > span::after{
         content: '';
         top: 5px;
-    
-/*
-  .header__burger-line:first-of-type {
-     margin-bottom: 5px;*/
+
  }
 .collection{
     width: 375px;
-    height: 668px;
+    height: 500px;
 }
 
  
@@ -314,41 +318,48 @@ body {
 .collection__wrap{
    background-color: #FFF;
     width: 375;
-    height: 668px;
+    height: 520px;
     display: block; 
-    background-image: url(../loco_elliss/images/Vector@2x.png);
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-position: center bottom;
+    
 } 
+
+
 .collection__wrap-img {
        background-image: url(../loco_elliss/images/mob_girl.png);
         background-repeat: no-repeat;
         background-size: cover;
-        
+        z-index: 0;
         width: 375px;
-        height: 668px;
-        padding: 60px 0px 0px;
+        height: 520px;
+        padding: 0px 0px 0px;
         
     }
     
     .collection__title {
        position: absolute;
+       padding-top: 10px;
+       top: 420px;
        width: 297px;
        height: 103px;
        left: 10px;
-       top: 400px;
-    
        font-family: Montserrat;
        font-style: normal;
        font-weight: bold;
        font-size: 50px;
        line-height: 51px;
        color: #000000;
-       
-       
-        
+               
      }
+     .vector {
+        background-image: url(../loco_elliss/images/Vector2.png);
+        background-size: cover;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        left: 162px;
+        top: 560px;
+        z-index: 1;
+    }
      .product, .look {
        
         direction: none; 
