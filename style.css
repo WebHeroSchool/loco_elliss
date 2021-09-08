@@ -115,23 +115,22 @@ body {
     background-position: right ;
     width: 540px;
     height: 562px;
-    padding-top: 159px;
-    padding-left: 200px;
+    padding-top: 157px;
+    padding-left: 196px;
     
 }
 
 .collection__wrap-text {
     display: flex;
     flex-direction: column;
-    padding-left: 47px;
+    padding-left: 51px;
 }
 .collection__title {
     padding-top: 175px;
     width: 475px;
     height: 164px;
     margin: 5px;
-    letter-spacing: -0.2px;
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat bold";
     font-weight: bold;
     font-style: normal;
     line-height: 82px;
@@ -152,8 +151,7 @@ body {
         font-style: normal;
         width: 467px;
         height: 127px;
-        letter-spacing: 0.09px;
-        
+               
 }
 .collection__buttons{
         display: flex;
@@ -195,7 +193,7 @@ body {
       cursor: default;
       position: relative;
       font-family: "Montserrat medium";
-      padding-left: 27px;
+      padding-left: 28px;
       padding-top: 5px;
 }
 .vector3 {
@@ -213,7 +211,7 @@ padding-left: 11px;
 
     cursor: pointer;
     display: flex;
-    height: 100%;
+
     width: 153px;
     list-style: none;
     
@@ -221,17 +219,20 @@ padding-left: 11px;
 
 .social__link_instagram {
     padding-left: 50px;
-    padding-top: 5px;
+    padding-top: 1px;
  
 }
 .social__link_vkontakte {
-    padding: 7px;
+    padding-left: 14px;
+    padding-top: 1px;
 } 
 
 .social__link_facebook{
-    padding: 5px;
+    padding-left: 14px;
+    padding-top: 1px;
 }
 .retangle {
+    flex: auto;
     display: flex;
     background-image: url(../loco_elliss/images/Rectangle\ 8.png); 
     background-repeat: no-repeat;
@@ -241,9 +242,9 @@ padding-left: 11px;
     align-items: flex-start;
     align-self: flex-end;
     z-index: 0;
-    margin: 5px;
+    margin: 4px;
     padding-left: 50px;
-    padding-top: 10px;
+    padding-top:-1px;
 }
 .retangle1 {
     
@@ -252,7 +253,7 @@ padding-left: 11px;
     position: absolute;
     width: 2px;
     height: 8px;
-    top: 832px;
+    top: 828px;
     left: 721px;
      z-index:1;
 }
@@ -267,18 +268,19 @@ padding-left: 11px;
      
     }
      .header{
-     width: 100%;
-     background: #f5f5f3;
+      width: 100%;
+      background: #f5f5f3;
       display: flex;
       justify-content: space-between;
       height: 69px;
+
      }
    
      .header__loco-wrap{
          background-color:#FFF;                     ;
          display: flex;
          justify-content: flex-start;
-         min-width: 698px;
+        min-width: 698px;
      }
      .header__logo-loco{
          color:#000;
@@ -286,7 +288,8 @@ padding-left: 11px;
          padding: 16px 0 0 22px;
          width: 98px;
          height: 37px;
-         font-size: 30px;
+         font-family: "Montserrat bold";
+         font-size: 40px;
      }
     .header__lang-ru {
              visibility: hidden;
@@ -336,7 +339,7 @@ padding-left: 11px;
      
  .collection__wrap{
     background-color: #FFF;
-     width: 768;
+     width: 768px;
      height: 1024px;
      display: block; 
     } 
@@ -354,17 +357,15 @@ padding-left: 11px;
      .collection__title {
         position: absolute;
         padding-top: 100px;
-        top: 720px;
+        top: 754px;
         width: 297px;
         height: 103px;
-        left:210px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
+        left:300px;
+        font-family: "Montserrat bold";
         font-size: 72px;
-        line-height: 57px;
+        line-height: 70px;
         color: #000000;
-        letter-spacing: 1.5px;     
+         
       }
       .vector {
          background-image: url(../loco_elliss/images/Vector2.png);
@@ -372,8 +373,8 @@ padding-left: 11px;
          position: absolute;
          width: 65px;
          height: 40px;
-         left: 330px;
-         top: 985px;
+         left: 378px;
+         top: 1032px;
          z-index: 1;
      }
       .product, .look {
@@ -491,7 +492,7 @@ padding-left: 11px;
        width: 297px;
        height: 103px;
        left: 23px;
-       font-family: "Montserrat Medium";
+       font-family: "Montserrat bold";
        font-style: normal;
        font-weight: bold;
        font-size: 50px;
