@@ -184,14 +184,11 @@ body {
 
 .link{
       text-decoration:none;
-      width: 203px;
+     /* width: 203px;*/
       line-height: 2.5em;
-      font-style: normal;
-      font-weight: 500;
       font-size: 13px;
       color: black;
       cursor: default;
-      position: relative;
       font-family: "Montserrat medium";
       padding-left: 28px;
       padding-top: 5px;
@@ -349,7 +346,7 @@ padding-left: 11px;
      background-repeat: no-repeat;
      background-size: cover;
      z-index: 0;
-     width: 768px;
+     width: 570px;
      height: 1024px;
      }
      
@@ -369,6 +366,7 @@ padding-left: 11px;
       .vector {
          background-image: url(../loco_elliss/images/Vector2.png);
          background-size: cover;
+         background-repeat: no-repeat;
          position: absolute;
          width: 65px;
          height: 40px;
@@ -391,28 +389,24 @@ padding-left: 11px;
     max-width: 375px;
     
    }
-    .header{
-    width: 90%;
-    background: white;
-     display: flex;
-     justify-content: space-between;
-     height: 69px;
-    }
-  
-    .header__loco-wrap{
-        background-color:#FFF;
-        display: flex;
-        justify-content: flex-start;
-        min-width: 305px;
-    }
+   .header{
+    width: 100%;
+    height: 69px;
+
+   }
+   .header__loco-wrap{
+   
+   min-width: 305px;
+}
     .header__logo-loco{
         color:#000;
         left: 26px;
         padding: 16px 0 0 22px;
         width: 98px;
         height: 37px;
-        font-family: "Montserrat Medium";
-        font-size: 33px;
+        font-family: "Montserrat ";
+        font-style: normal;
+        font-size: 30px;
         line-height: 37px;
         letter-spacing: 0.07em;
     }
@@ -467,21 +461,20 @@ padding-left: 11px;
 .collection__wrap{
    background-color: #FFF;
     width: 375;
-    height: 520px;
-    display: block; 
-    
+    height: 528px;  
 } 
 
 
 .collection__wrap-img {
        background-image: url(../loco_elliss/images/mob_girl.png);
         background-repeat: no-repeat;
-        background-size: 111%;
-        background-position: -18px;
+        
         z-index: 0;
-        width: 375px;
-        height: 527px;
-             
+        padding-top: 42px;
+        padding-left:175px;
+        width: 200px;
+        height: 533px; 
+        margin-top: -47px;            
     }
     
     .collection__title {
