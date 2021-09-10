@@ -24,9 +24,3 @@
              url("../loco_elliss/fonts/Montserrat-Bold.woff2") format("woff2");
     
 } 
-@font-face {
-    font-family: "Montserrat ";
-    font-weight: 500;
-    font-style: normal;
-    src:     url("../loco_elliss/fonts/montserrat-medium-webfont.woff") format("woff"),
-             url("../loco_elliss/fonts/montserrat-medium-webfont.woff2") format("woff2");
