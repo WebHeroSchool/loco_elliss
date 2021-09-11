@@ -126,15 +126,15 @@ body {
     padding-left: 51px;
 }
 .collection__title {
-    padding-top: 175px;
+    padding-top: 180px;
     width: 475px;
     height: 164px;
-    margin: 5px;
+    margin: 0 0 0 2px;
     font-family: "Montserrat bold";
     font-weight: bold;
     font-style: normal;
-    line-height: 82px;
-    font-size: 82px;
+    line-height: 81.92px;
+    font-size: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,11 +142,11 @@ body {
 }
 
  .collection__text {
-        padding-top: 7px;
+        padding-top: 12px;
         margin: 3px;
         font-family: "Montserrat Regular";
         font-weight:normal;
-        line-height: 21px;
+        line-height: 21.03px;
         font-size: 15px;
         font-style: normal;
         width: 467px;
@@ -184,17 +184,13 @@ body {
 
 .link{
       text-decoration:none;
-      width: 203px;
       line-height: 2.5em;
-      font-style: normal;
-      font-weight: 500;
       font-size: 13px;
       color: black;
       cursor: default;
-      position: relative;
       font-family: "Montserrat medium";
       padding-left: 28px;
-      padding-top: 5px;
+      padding-top: 7px;
 }
 .vector3 {
 display: flex;
@@ -334,6 +330,7 @@ padding-left: 11px;
   .collection__text, .collection__buttons, .collection__social {
          visibility: hidden;
          direction: none; 
+         display: none;
       }
      
  .collection__wrap{
@@ -349,7 +346,7 @@ padding-left: 11px;
      background-repeat: no-repeat;
      background-size: cover;
      z-index: 0;
-     width: 768px;
+     width: 570px;
      height: 1024px;
      }
      
@@ -369,6 +366,7 @@ padding-left: 11px;
       .vector {
          background-image: url(../loco_elliss/images/Vector2.png);
          background-size: cover;
+         background-repeat: no-repeat;
          position: absolute;
          width: 65px;
          height: 40px;
@@ -391,30 +389,27 @@ padding-left: 11px;
     max-width: 375px;
     
    }
-    .header{
-    width: 90%;
-    background: white;
-     display: flex;
-     justify-content: space-between;
-     height: 69px;
-    }
-  
-    .header__loco-wrap{
-        background-color:#FFF;
-        display: flex;
-        justify-content: flex-start;
-        min-width: 305px;
-    }
+   .header{
+    width: 100%;
+    height: 69px;
+
+   }
+   .header__loco-wrap{
+   
+   min-width: 305px;
+}
     .header__logo-loco{
         color:#000;
         left: 26px;
-        padding: 16px 0 0 22px;
+        padding: 16px 0 0 26px;
         width: 98px;
         height: 37px;
-        font-family: "Montserrat Medium";
-        font-size: 33px;
-        line-height: 37px;
+        font-family: "Montserrat Medium ";
+        font-size: 30px;
+        line-height: 36.57px;
         letter-spacing: 0.07em;
+        text-align: center;
+       
     }
    .header__lang-ru {
             visibility: hidden;
@@ -461,36 +456,34 @@ padding-left: 11px;
  .collection__text, .collection__buttons, .collection__social {
         visibility: hidden;
         direction: none; 
-
+        display: none;
     }
     
 .collection__wrap{
    background-color: #FFF;
     width: 375;
-    height: 520px;
-    display: block; 
-    
+    height: 528px;  
 } 
 
 
 .collection__wrap-img {
        background-image: url(../loco_elliss/images/mob_girl.png);
         background-repeat: no-repeat;
-        background-size: 111%;
-        background-position: -18px;
         z-index: 0;
-        width: 375px;
-        height: 527px;
-             
+        padding-top: 40px;
+        padding-left:175px;
+        width: 200px;
+        height: 536px; 
+        margin-top: -50px;            
     }
     
     .collection__title {
        position: absolute;
-       padding-top: 10px;
-       top: 420px;
+       padding-top: 8px;
+       top: 427px;
        width: 297px;
        height: 103px;
-       left: 23px;
+       left: 24px;
        font-family: "Montserrat bold";
        font-style: normal;
        font-weight: bold;
