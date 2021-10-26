@@ -741,7 +741,7 @@ font-size: 13px;
 }
 .look__line img {
     width: 73px;
-    height: 578px;
+    height:1024px;
 }
  .look__wrap-block{
         width: 488px;
@@ -1074,7 +1074,7 @@ font-size: 13px;
     .look__line img{
         width: 41px;
         height: 597px;
-        margin-top: 350px;
+        
     }
     
     .look__wrap-block{
