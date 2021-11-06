@@ -61,7 +61,7 @@ body {
         font-family: "Montserrat Medium";
         line-height: normal;
         font-size: 20px;
-        background-image: url(../images/Vector.png); 
+        background-image: url(images/Vector.png); 
         background-repeat: no-repeat;
          background-position: right ;
          display: flex;
@@ -112,7 +112,7 @@ body {
     display: flex;
    } 
 .collection__wrap-img {
-    background-image: url(../images/girl.png); 
+    background-image: url(images/girl.png); 
    background-repeat: no-repeat;
     background-position: right ;
     width: 540px;
@@ -232,7 +232,7 @@ padding-left: 11px;
 .retangle {
     flex: auto;
     display: flex;
-    background-image: url(../images/Rectangle\ 8.png); 
+    background-image: url(images/Rectangle\ 8.png); 
     background-repeat: no-repeat;
     background-position: right ;
     width: 27px;
@@ -246,7 +246,7 @@ padding-left: 11px;
 }
 .retangle1 {
     
-    background-image: url(../images/Rectangle9.png);
+    background-image: url(.images/Rectangle9.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 2px;
@@ -433,7 +433,7 @@ height: 900px;
 }
 .look__line  img{
     width: 73px;
-    height: 800px;
+    height: 889px;
 }
 .look__wrap-block{
     width: 488px;
@@ -630,7 +630,7 @@ font-size: 13px;
  
  
  .collection__wrap-img {
-     background-image: url(../images/mob_girl.png);
+     background-image: url(images/mob_girl.png);
      background-repeat: no-repeat;
      background-size: cover;
      z-index: 0;
@@ -652,7 +652,7 @@ font-size: 13px;
          
       }
       .vector {
-         background-image: url(../images/Vector2.png);
+         background-image: url(images/Vector2.png);
          background-size: cover;
          background-repeat: no-repeat;
          position: absolute;
@@ -716,7 +716,7 @@ font-size: 13px;
 
 .look__wrap{
     display: block;
-    width: 768px;
+    width: 872px;
     height: 1024px;
    }
 .look__wrap-img{
@@ -900,7 +900,7 @@ font-size: 13px;
 
 
 .collection__wrap-img {
-       background-image: url(../images/mob_girl.png);
+       background-image: url(images/mob_girl.png);
         background-repeat: no-repeat;
         position: relative;
         z-index: 4;
@@ -928,7 +928,7 @@ font-size: 13px;
                
      }
      .vector {
-        background-image: url(../images/Vector2.png);
+        background-image: url(images/Vector2.png);
         background-size: cover;
         position: absolute;
         width: 30px;
