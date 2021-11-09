@@ -433,7 +433,7 @@ height: 900px;
 }
 .look__line  img{
     width: 73px;
-    height: 889px;
+    height: 802px;
 }
 .look__wrap-block{
     width: 488px;
@@ -680,7 +680,7 @@ font-size: 13px;
 }
 
 .product__img-beige{
-    margin-left: 0px;
+    margin-left: 200px;
     width: 376px;
     height: 596px;
 }
@@ -716,8 +716,8 @@ font-size: 13px;
 
 .look__wrap{
     display: block;
-    width: 872px;
-    height: 1024px;
+    width: 768px;
+    height: 1101px;
    }
 .look__wrap-img{
     width: 700px;
@@ -742,7 +742,7 @@ font-size: 13px;
 }
 .look__line img {
     width: 73px;
-    height:1024px;
+    height:1089px;
 }
  .look__wrap-block{
         width: 488px;
@@ -837,11 +837,11 @@ font-size: 13px;
         padding: 16px 0 0 26px;
         width: 98px;
         height: 37px;
-        font-family: "Montserrat Medium ";
+        font-family: "Montserrat Medium";
         font-size: 30px;
-        line-height: 36.57px;
-        letter-spacing: 0.07em;
+        line-height: 37.57px;
         text-align: center;
+        letter-spacing: 0.07em;
        
     }
    .header__lang-ru {
@@ -918,7 +918,7 @@ font-size: 13px;
        top: 427px;
        width: 297px;
        height: 103px;
-       left: 29px;
+       left: 25px;
        font-family: "Montserrat bold";
        font-style: normal;
        font-weight: bold;
@@ -982,19 +982,21 @@ font-size: 13px;
         line-height: 20px;
         width: 192px;
         height: 23px;
-        padding-left: 32px;
+        padding-left: 29px;
         padding-top: 15px;
     }
     .subtitle{
         padding-top: 1px;
-        padding-left: 35px;
+        padding-left: 31px;
         font-size: 10px;
         line-height: 10px;
         letter-spacing: 0.07em;
     }
     .description{
+        font-family:"Montserrat Regular"; ;
+        margin-top: 5px;
         padding-top: 0px;
-        padding-left: 35px;
+        padding-left: 31px;
         font-size: 9px;
         line-height: 13px;
         width: 252px;
@@ -1020,7 +1022,7 @@ font-size: 13px;
         height: 22.89px;
      }
      .select__item_red img{
-       margin-left: 9px;
+       margin-left: 6px;
        margin-top: -4px;
        width: 29.39px;
        height: 29px;
@@ -1044,11 +1046,11 @@ font-size: 13px;
         width: 70px;
         height: 32px;
         margin-top: -10px;
-        margin-left: 61px;
+        margin-left: 59px;
     }
     .product__add{
         background-color: #FFFFFF;
-        margin: 22px 0 0 -19px;
+        margin: 23px 0 0 -25px;
         padding: 2px 0 0 0px;
         width: 260px;
         height: 37px;
@@ -1079,7 +1081,7 @@ font-size: 13px;
     }
     .look__set{
         width: 348px;
-        height: 50%;
+        height: 45%;
         padding-top: 30px;
         padding-left: 0px;
         z-index: 2;
@@ -1090,7 +1092,7 @@ font-size: 13px;
         margin-left: 100px;
     }
     .look__line img{
-        width: 41px;
+        width: 44px;
         height: 597px;
         
     }
@@ -1098,6 +1100,7 @@ font-size: 13px;
     .look__wrap-block{
         width: 305px;
         height: 165px;
+        margin: 0px 73px 0px 23px ;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1107,10 +1110,10 @@ font-size: 13px;
         display: flex;
         flex-direction: column;
         background-color:#FAE8E4;
-        width: 272px;
+        width: 300px;
         height: 195px;
         margin: -143px 73px 0px 23px ;
-        padding: 3px 0 0 47px;
+        padding: 3px 0 0 26px;
        
     }
 .look__title {
@@ -1153,10 +1156,10 @@ font-size: 13px;
      }
      .look__add{
         background-color: #FAE8E4;
-        margin:2px 0 0 0px;
+        margin:10px 0 0 0px;
         padding-left: 0px;
         width: 260px;
-        height: 46px;
+        height: 39px;
         font-family:"Montserrat medium";
         font-size: 13px;
         
@@ -1166,8 +1169,8 @@ font-size: 13px;
             height: 58px;
             display: flex;
             flex-direction: column;
-            margin: 0 0 0 158px;
-            padding: 28px 0 0 0;
+            margin: 0 0 0 138px;
+            padding: 29px 0 0 0;
            }
         .link{
             font-size: 15px;
