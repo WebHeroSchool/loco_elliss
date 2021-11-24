@@ -726,8 +726,8 @@ font-size: 13px;
     padding-left: 15px; 
 }
 .look__set{
-    width: 700px;
-    height: 70%;
+    max-width: 700px;
+    max-height: 70%;
     padding-top: 57px;
     padding-left: 20px;
     z-index: 2;
@@ -1080,8 +1080,8 @@ font-size: 13px;
          visibility: hidden;
     }
     .look__set{
-        width: 348px;
-        height: 45%;
+        max-width:348px;
+        max-height: 45%;
         padding-top: 30px;
         padding-left: 0px;
         z-index: 2;
