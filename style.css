@@ -110,6 +110,7 @@ body {
     background: linear-gradient(to right, #000 461px, #FFF 461px);
     height: 805px;
     display: flex;
+    width: 1440px;
    } 
 .collection__wrap-img {
     background-image: url(images/girl.png); 
@@ -153,6 +154,7 @@ body {
         font-style: normal;
         width: 467px;
         height: 127px;
+       
                
 }
 .collection__buttons{
@@ -244,19 +246,7 @@ padding-left: 11px;
     padding-left: 50px;
     padding-top:-1px;
 }
-/*
-.retangle1 {
-    
-    background-image: url(.images/Rectangle9.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    background-color: #000;
-    width: 2px;
-    height: 8px;
-    top: 828px;
-    left: 819px;
-     z-index:10;
-}*/
+
 /*-------second section--------*/
 
 .product{
@@ -338,6 +328,7 @@ padding-left: 11px;
     height: 148px;
    padding-top: 46px;
    padding-left: 12px;
+   opacity: 50%;
 }
 .product__buttons{
     display: flex;
@@ -396,8 +387,8 @@ padding-left: 11px;
   background-color: #FFFFFF;
   margin: 12px 0 0 12px;
   padding: 2px 0 0 0px;
-  width: 263px;
-  height: 44px;
+  width: 256px;
+  height: 47px;
   font-family: "Montserrat Medium";
   font-size: 13px;
   line-height: 0px;
@@ -418,7 +409,7 @@ padding-left: 11px;
     display: flex;
     width:1440px;
     background-color:  #EBE3D8;
-    height: 100%;
+    height: 93%;
 }
 .look__wrap-img{
     z-index: 2;
@@ -435,7 +426,7 @@ padding-left: 11px;
 }
 .look__line  img{
     width: 73px;
-    height: 802px;
+    height: 891px;
 }
 .look__wrap-block{
     width: 488px;
@@ -487,6 +478,7 @@ padding-left: 11px;
        padding-top: 18px;
        padding-left: 4px;
        word-break: normal;
+       opacity: 50%;
     }
 .look__cart-form{
     display: flex;
@@ -819,11 +811,11 @@ font-size: 13px;
    .body{
     margin: 0 auto;
     height: 100%;
-    max-width: 375px;
+    max-width: 380px;
     
    }
    .header{
-    max-width: 375px;
+    max-width: 380px;
     height: 69px;
     position: relative;
     z-index: 50;
@@ -883,7 +875,7 @@ font-size: 13px;
 
  }
 .collection{
-    max-width: 375px;
+    max-width: 380px;
    max-height: 500px;
 }
 
@@ -896,11 +888,14 @@ font-size: 13px;
     
 .collection__wrap{
    background-color: #FFF;
-    max-width: 375;
+    max-width: 380px;
     max-height:528px;  
 } 
 
-
+.collection__wrap-contener{
+    max-width: 380px;
+    max-height:528px;  
+}
 .collection__wrap-img {
        background-image: url(images/mob_girl.png);
         background-repeat: no-repeat;
@@ -908,7 +903,7 @@ font-size: 13px;
         z-index: 4;
         padding-top: 40px;
         padding-left:175px;
-        width: 200px;
+        width: 206px;
         height: 536px; 
         margin-top: -50px;            
     }
@@ -935,19 +930,19 @@ font-size: 13px;
         position: absolute;
         width: 30px;
         height: 20px;
-        left: 180px;
+        left: 174px;
         top: 560px;
         z-index: 5;
     }
 
     .product{
         margin-top: 0px;
-       max-width: 376px;
+       max-width: 380px;
         max-height: 674px;
      }
     .product__wrap{
       display: block;
-      width: 376px;
+      width: 380px;
       height: 596px;
             }
      .product__wrap-blok{
@@ -1062,12 +1057,12 @@ font-size: 13px;
     }
      .look {
         margin-top: 0px;
-       max-width: 376px;
+       max-width: 380px;
        max-height: 596px;
      }
     .look__wrap{
       display: block;
-      max-width: 376px;
+      max-width: 380px;
       max-height: 596px;
       }
       .look__wrap-img{
