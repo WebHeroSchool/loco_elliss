@@ -108,7 +108,7 @@ body {
   
 .collection__wrap{
     background: linear-gradient(to right, #000 461px, #FFF 461px);
-    height: 805px;
+    height: 808px;
     display: flex;
     width: 1440px;
    } 
@@ -304,7 +304,7 @@ padding-left: 11px;
     font-style: normal;
     line-height: 41.92px;
     font-size: 40px;
-    margin: 14px;
+    margin: 12px;
 }
 .subtitle{
     padding-top: 2px;
@@ -405,11 +405,15 @@ padding-left: 11px;
 }
 /* секция 3 */
 
+.look{
+    width: 1440px;
+    height: 870px;
+}
 .look__wrap {
     display: flex;
     width:1440px;
     background-color:  #EBE3D8;
-    height: 93%;
+    height: 100%;
 }
 .look__wrap-img{
     z-index: 2;
@@ -421,12 +425,12 @@ padding-left: 11px;
 .look__black{
     z-index: 1;
     margin-left: -345px;
-    margin-top: 3px;
+    margin-top: 0 px;
 
 }
 .look__line  img{
     width: 73px;
-    height: 891px;
+    height: 896px;
 }
 .look__wrap-block{
     width: 488px;
@@ -446,7 +450,7 @@ padding-left: 11px;
    
 }
 .look__title {
-    margin: 34px 0px 14px 0px;
+    margin: 32px 0px 14px 0px;
     width: 375px;
     height: 41px;
     font-family: "Montserrat bold";
@@ -456,7 +460,7 @@ padding-left: 11px;
     font-size: 40px;
 }
 .look__subtitle{
-    padding-top: 2px;
+    padding-top: 0px;
     padding-left: 0px;
     margin: 0px;
     font-family: "Montserrat bold";
@@ -518,7 +522,7 @@ font-size: 13px;
   display: flex;
   justify-content: flex-end;
   background-color: #EBE3D8;
-  max-width: 1440px;
+  width: 1440px;
   height: auto;
 }
 .footer__created-txt{
